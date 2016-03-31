@@ -6,6 +6,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	margin: 0px auto;
+	font-family: "微软雅黑";
 }
 header{
 	background-color: #333;
@@ -26,6 +27,7 @@ header img{
 }
 header h1{
 	color: white;
+	font-weight: lighter;
 	text-align: center;
 	margin-top: 30px;
 }
@@ -38,12 +40,11 @@ header h1{
 #intro ul{
 	text-align: center;
 	margin-top: 30px;
-	zoom: 1;	
+	zoom: 1;
 }
 #intro li{
 	list-style: none;
 	font-size: 22px;
-	font-weight: bold;
 	margin: 0 20px;
 	display: inline-block;
 	position: relative;
@@ -54,6 +55,8 @@ header h1{
 	padding: 8px 10px;
 	border-radius: 5px;
 }
+
+
 footer{
 	text-align: center;
 }
@@ -65,9 +68,18 @@ footer ul{
 footer ul li{
 	list-style: none;
 	font-size: 20px;
-	font-weight: bold;
 	display: inline-block;
 	margin: 0 10px;
+	padding: 5px 0 5px 45px;
+}
+#email{
+	background: url(image/contact_check.png) no-repeat;
+}
+#github{
+	background: url(image/github_check.png) no-repeat;
+}
+#wexin{
+	background: url(image/weixin_check.png) no-repeat;
 }
 footer img{
 	width: 200px;
