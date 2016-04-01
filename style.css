@@ -1,86 +1,102 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
-html,body{
-	height: 100%;
-	width: 100%;
-	margin: 0px auto;
+
+body{
+	margin: 0 auto;
 	font-family: "微软雅黑";
 }
+
+/*header start*/
 header{
 	background-color: #333;
-	padding-top: 80px;
+	padding-top: 6%;
 	padding-bottom: 20px;
 }
-header div{
+
+#logo{
+	display: block;
 	width: 120px;
 	overflow: hidden;
 	border: 6px solid #fff;
 	border-radius: 100%;
 	background-color: #fff;
-	box-shadow: 0 0 20px #333;
 	margin: 0 auto;
 }
-header img{
-	width: 110px;
-}
+
 header h1{
-	color: white;
+	color: #fff;
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 30px;
 }
+/*header end*/
+
+/*intro start*/
+#intro{
+	padding-top: 40px;
+}
+
 #intro p{
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 15px 15px;
+	background-color: #eee;
+	text-align: center;
+	border-radius: 5px;
 	font-size: 14px;
 	color: #333;
-	text-align: center;
-	margin-top: 40px;
 }
+
 #intro ul{
 	text-align: center;
-	margin-top: 30px;
-	zoom: 1;
+	padding: 30px 0;
 }
+
 #intro li{
-	list-style: none;
-	font-size: 22px;
-	margin: 0 20px;
 	display: inline-block;
-	position: relative;
+	font-size: 22px;
+	margin: 0 1%;
+	cursor: pointer;
 }
-#good{
-	color: white;
+
+.good{
+	color: #fff;
 	background-color: green;
 	padding: 8px 10px;
 	border-radius: 5px;
 }
 
+.task a{
+	text-decoration: none;
+	color: #88ada6;
+}
 
+.task a:hover{
+	color: #e29e45;
+}
+
+.task a:active{
+	color: #75878a;
+}
+/*intro end*/
+
+/*footer start*/
 footer{
-	text-align: center;
+	padding-top: 30px;
+	width: 200px;
+	margin: 0 auto;
 }
-footer ul{
-	margin-top: 30px;
-	text-align: center;
-	zoom: 1;
+
+footer p{
+	padding: 5px 0 5px 60px;
+	background: url(image/email.png) no-repeat;
 }
-footer ul li{
-	list-style: none;
-	font-size: 20px;
-	display: inline-block;
-	margin: 0 10px;
-	padding: 5px 0 5px 45px;
-}
-#email{
-	background: url(image/contact_check.png) no-repeat;
-}
-#github{
-	background: url(image/github_check.png) no-repeat;
-}
-#wexin{
-	background: url(image/weixin_check.png) no-repeat;
-}
+
 footer img{
 	width: 200px;
+	padding: 10px 0 20px;
 }
+/*footer end*/
